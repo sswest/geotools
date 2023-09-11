@@ -14,6 +14,10 @@ GeoDev is a Python C extension package for handling the conversion between bd09,
 
 Prerequisite: gcc
 
+Optional: numpy
+
 1. Clone the repository locally
 2. Execute `python setup.py install` to compile and install
-3. Execute unit tests `pytest`
+3. unittests `pytest`
+
+### Performant

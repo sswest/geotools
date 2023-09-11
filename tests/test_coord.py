@@ -2,14 +2,13 @@ import csv
 
 import pytest
 
-# from geodev.coord import bd09_to_wgs84, wgs84_to_bd09, gcj02_to_wgs84, wgs84_to_gcj02, bd09_to_gcj02
-from tests.coordinate import Coordinate
-
-bd09_to_wgs84 = Coordinate.bd09_to_wgs84
-wgs84_to_bd09 = Coordinate.wgs84_to_bd09
-gcj02_to_wgs84 = Coordinate.gcj02_to_wgs84
-wgs84_to_gcj02 = Coordinate.wgs84_to_gcj02
-bd09_to_gcj02 = Coordinate.bd09_to_gcj02
+from geodev.coord import (
+    bd09_to_wgs84,
+    wgs84_to_bd09,
+    gcj02_to_wgs84,
+    wgs84_to_gcj02,
+    bd09_to_gcj02,
+)
 
 
 def mock_data(filepath):
